@@ -1,0 +1,24 @@
+{
+  "name": "cypress-bdd-automation-framework",
+  "version": "1.0.0",
+  "description": "This repository contains a **Cypress**-based **Behavior-Driven Development (BDD) automation framework** designed for testing web applications. The framework utilizes **Cypress** for fast and reliable testing, along with **Cucumber** for writing human-readable **Gherkin** scenarios, promoting collaboration between developers, testers, and business stakeholders.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "e2e": "cypress open",
+    "test:all": "npm run test && npm run e2e"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "babel-jest": "^29.7.0",
+    "cypress": "^14.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "exceljs": "^4.4.0",
+    "jest": "^29.7.0"
+  }
+}
